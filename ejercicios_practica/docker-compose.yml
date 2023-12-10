@@ -56,8 +56,8 @@ services:
     ports:
         - "8000:8000"
     # Variables de entorno
-    environment:
-      DB_ENGINE: POSTGRES
+    # environment:
+    #   DB_ENGINE: POSTGRES
     # Control de consola:
     stdin_open: true
     tty: true
